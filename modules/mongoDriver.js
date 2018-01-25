@@ -1,6 +1,6 @@
 var config = require('../config/config.js');
 var MongoClient = require('mongodb').MongoClient;
-var MONGO_URI = config.votingApp.localhost.db;
+var MONGO_URI = config.app.localhost.db;
 
 
 var mongoDriver = {
